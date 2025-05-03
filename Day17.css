@@ -1,0 +1,38 @@
+form{
+    border: 5px solid black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    padding: 15px;
+    gap: 2px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 7px black;
+    background-image: linear-gradient(pink,yellow);
+}
+
+input{
+    padding: 7px;
+    border-radius: 7px;
+}
+
+button{
+    background-color: black;
+    color: khaki;
+    border: none;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.errors{
+    color: red;
+    min-height: 10px;
+
+}
